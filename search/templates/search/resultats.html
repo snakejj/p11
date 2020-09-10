@@ -1,0 +1,81 @@
+{% extends "core/base.html" %}
+{% load static %}
+{% block content %}
+<!-- Masthead -->
+
+      {% if product_found == None %}
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">Oops !</h1>
+      {% elif product_found == False %}
+  <header class="results">
+    <div class="container h-100">
+        <h1 class="text-center text-white font-weight-bold">Oops !</h1>
+      {% else %}
+  <header class="results"
+          style="
+          background : linear-gradient(to bottom,rgba(92,77,66,.9) 0,rgba(92,77,66,.2) 100%),url({{product_found.image_url}});
+          background-repeat : no-repeat;
+          text-align : center;
+          background-position: center;">
+    <div class="container h-100">
+      <h1><a class="text-center text-white font-weight-bold" href="{% url 'products:product' %}?code={{ product_found.code }}">{{ product_found.product_name }}</a></h1>
+      {% endif %}
+    </div>
+  </header>
+
+<!-- list of results -->
+  <section class="results-section">
+    {% if product_found == None %}
+    <p class="text-center">Vous pouvez utiliser le champ dans la barre de navigation pour faire une recherche</p>
+    {% elif product_found == False %}
+    <p class="text-center">Nous n'avons trouvé aucun produit correspondant à votre recherche. Merci d'en essayer une autre</p>
+    {% elif surrogates is False %}
+    <h5 class="text-center mt-0">Ce produit à un nutriscore A</h5>
+    <hr class="divider my-4">
+    {% elif surrogates %}
+    <div class="container">
+      <h5 class="text-center mt-0">Vous pouvez remplacer cet aliment par :</h5>
+      <hr class="divider my-4">
+
+    <div class="row">
+        {% for product in surrogates %}
+        <div class="col-md-4 col-xs-12 col-lg-4-product" >
+          <div class="col-lg-4-img" >
+            {% if product.nutrition_grade_fr == 'a' %}
+            <span class="nutriscore-a">A</span>
+            {% elif product.nutrition_grade_fr == 'b' %}
+            <span class="nutriscore-b">B</span>
+            {% elif product.nutrition_grade_fr == 'c' %}
+            <span class="nutriscore-c">C</span>
+            {% elif product.nutrition_grade_fr == 'd' %}
+            <span class="nutriscore-d">D</span>
+            {% elif product.nutrition_grade_fr == 'e' %}
+            <span class="nutriscore-e">E</span>
+            {% endif %}
+            <a class="fill-div" href="{% url 'products:product' %}?code={{ product.code }}">
+              <img class ="imgproduct" src="{{ product.image_url }} " alt="{{ product.product_name }}">
+              </a>
+          </div>
+          <a href="{% url 'products:product' %}?code={{ product.code }}"><h5 class="mb-3 text-center font-weight-bold">{{ product.product_name }}</h5></a>
+            {% if user.is_authenticated %}
+              <form class="text-center mb-3" action="{% url 'favorites:favorites' %}" method="post">
+                {% csrf_token %}
+                <input type="hidden" name="product" value="{{ product_found.code }}">
+                <input type="hidden" name="substitute" value="{{ product.code }}">
+                <button class="a-saveproduct" type="submit"><i class="fa fa-floppy-o" aria-hidden="true">&#xf0c7 </i>
+                  Sauvegarder
+                </button>
+              </form>
+            {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+      </div>
+    </div>
+    {% else %}
+    <p class="text-center">Une erreur c'est produite, merci de <a href="{% url 'core:home' %}#contact">nous contacter !</a></p>
+    {% endif %}
+  </section>
+
+{% endblock content %}

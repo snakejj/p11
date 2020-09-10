@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.csh" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate.csh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/activate.fish" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/activate.fish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/chardetect" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/chardetect" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/coverage" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/coverage-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage-3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/coverage3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/coverage3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/django-admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/django-admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install-3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install-3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/faker" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/faker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/gunicorn" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/gunicorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3.8" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3.8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/py.test" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/py.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pytest" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pytest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/sqlformat" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/sqlformat" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
+  </component>
+  <component name="ProjectId" id="1hDgSr1F1RJny1mkPIIchZEczei" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="" />
+      <created>1599551081865</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599551081865</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Fixing of a bug in venv after renaming the project">
+      <created>1599551770252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599551770252</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Setting of the functional test (sign up)">
+      <created>1599637784639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599637784639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Settings update to enable static files on heroku">
+      <created>1599735334034</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599735334034</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updating settings.py">
+      <created>1599737815216</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737815216</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updating Procfile">
+      <created>1599738092041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738092041</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Correcting a error in Procfile">
+      <created>1599738506298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599738506298</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixing of an error 500 when running functional_test">
+      <created>1599741091834</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741091834</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updating tests (100% coverage)">
+      <created>1599741862196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599741862196</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update of the page mentions_legales.html">
+      <created>1599748988412</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599748988412</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Setting of the README">
+      <created>1599752212915</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599752212915</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing of a bug in venv after renaming the project" />
+    <MESSAGE value="Setting of the functional test (sign up)" />
+    <MESSAGE value="Settings update to enable static files on heroku" />
+    <MESSAGE value="Updating settings.py" />
+    <MESSAGE value="Updating Procfile" />
+    <MESSAGE value="Correcting a error in Procfile" />
+    <MESSAGE value="Fixing of an error 500 when running functional_test" />
+    <MESSAGE value="Updating tests (100% coverage)" />
+    <MESSAGE value="Update of the page mentions_legales.html" />
+    <MESSAGE value="Setting of the README" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting of the README" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599727132838">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727132838" />
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599741905130">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599741905130" />
+    <state x="1466" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599552816901" />
+    <state x="330" y="6" key="SettingsEditor" timestamp="1599757905987">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="330" y="6" key="SettingsEditor/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599757905987" />
+    <state x="1830" y="174" key="SettingsEditor/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551204810" />
+    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser" timestamp="1599727286049">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727286049" />
+    <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551761939" />
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1599752215033">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599752215033" />
+    <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599579968145">
+      <screen x="0" y="0" width="1366" height="736" />
+    </state>
+    <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599579968145" />
+    <state x="1391" y="32" width="1604" height="988" key="find.popup" timestamp="1599756897496">
+      <screen x="1366" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1391" y="32" width="1604" height="988" key="find.popup/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599756897496" />
+    <state x="2032" y="162" width="1102" height="753" key="find.popup/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551595156" />
+  </component>
+</project>
