@@ -25,7 +25,7 @@
       <form action="{% url 'users:login' %}" method="post">
         {% csrf_token %}
         {{ form.as_p }}
-      <button type="submit" class="btn btn-primary">Envoyer</button>
+      <button type="submit" class="btn btn-primary" id="button_send">Envoyer</button>
       </form>
       <p>
       <hr>

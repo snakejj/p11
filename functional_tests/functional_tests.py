@@ -16,7 +16,7 @@ class FunctionalTests(StaticLiveServerTestCase):
     def tearDown(self):
         pass
 
-    def test_sign_up_process(self):
+    def test_sign_up_process_and_login(self):
         self.browser.get(self.live_server_url)
         WebDriverWait(self.browser, 10)
 
@@ -60,8 +60,20 @@ class FunctionalTests(StaticLiveServerTestCase):
 
         WebDriverWait(self.browser, 10)
 
-        assert "Page de profil" in self.browser.title
+        assert "Login" in self.browser.title
 
+        # Filling the login form
+
+        self.browser.find_element_by_name('username').send_keys('test_username')
+        self.browser.find_element_by_name('password').send_keys('password654sq%')
+
+        # Submitting the form to test if the warning about unvalidated account is active, and thus redirect to login
+
+        self.browser.find_element_by_id("button_send").click()
+
+        WebDriverWait(self.browser, 10)
+
+        assert "Login" in self.browser.title
 
 
 
