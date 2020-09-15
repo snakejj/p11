@@ -6,7 +6,29 @@ from django.contrib import messages
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.models import User
 
+from django.contrib.sites.shortcuts import get_current_site
+from django.template.loader import render_to_string
+
+from django.utils.http import urlsafe_base64_encode
+from django.utils.http import urlsafe_base64_decode
+from django.utils.encoding import force_bytes, force_text, DjangoUnicodeDecodeError
+from django.contrib.auth.tokens import PasswordResetTokenGenerator
+from django.core.mail import EmailMessage
+from django.conf import settings
+
+
 from .forms import SignUpForm
+
+########################################################################################################################
+
+
+class TokenGenerator(PasswordResetTokenGenerator):
+    pass
+
+
+generate_token = TokenGenerator()
+
+########################################################################################################################
 
 
 def signup(request):
@@ -25,6 +47,28 @@ def signup(request):
             user.last_name = last_name
             user.is_active = False
             user.save()
+
+            current_site = get_current_site(request)
+
+            email_subject = 'Activer votre compte'
+            email_message = render_to_string(
+                'registration/activate.html',
+                {
+                    'user': user,
+                    'domain': current_site.domain,
+                    'uid': urlsafe_base64_encode(force_bytes(user.pk)),
+                    'token': generate_token.make_token(user)
+                }
+            )
+
+            email_sender = EmailMessage(
+                email_subject,
+                email_message,
+                settings.EMAIL_HOST_USER,
+                [email]
+            )
+
+            email_sender.send()
 
             messages.warning(
                 request,
@@ -89,3 +133,23 @@ def login(request):
                 messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
     form = AuthenticationForm()
     return render(request, 'registration/login.html', {"form": form, 'title': "Login"})
+
+
+def account_activation(request, uidb64, token):
+    try:
+        uid = force_text(urlsafe_base64_decode(uidb64))
+        user = User.objects.get(pk=uid)
+
+    except Exception as identifier:
+        user = None
+
+    if user is not None and generate_token.check_token(user, token):
+        user.is_active = True
+        user.save()
+        messages.success(
+            request,
+            "Votre compte à été validé avec succès",
+            fail_silently=True
+        )
+        return redirect('core:home')
+    return render(request, 'registration/activate_failed.html', status=401)

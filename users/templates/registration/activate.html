@@ -1,0 +1,10 @@
+{% autoescape off%}
+
+Bonjour {{ user.username }},
+
+Merci de cliquer sur le lien de verification ci dessous afin de terminer votre inscription
+
+http://{{ domain }}{% url 'users:activate' uidb64=uid token=token %}
+
+
+{% endautoescape %}

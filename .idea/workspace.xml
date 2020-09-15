@@ -6,54 +6,52 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/p11.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/registration/activate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/registration/activate_failed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/bin/dotenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/ipython.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/py.typed" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/dotenv/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/python_dotenv-0.14.0.dist-info/top_level.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functional_tests/functional_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/functional_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_admin_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_admin_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_forms_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_models_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_urls_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/purbeurre/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/purbeurre/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,13 @@
       <option value="directory" />
     </option>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
@@ -76,10 +81,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/users/templates/registration" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/purbeurre" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/users/templates/registration" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -167,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599758141804</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Adding the is_active variable to the signup and login view">
+      <created>1600007031453</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600007031453</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,7 +196,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -194,13 +227,14 @@
     <MESSAGE value="Update of the page mentions_legales.html" />
     <MESSAGE value="Setting of the README" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Adding the is_active variable to the signup and login view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the is_active variable to the signup and login view" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599727132838">
+    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600083798905">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599727132838" />
+    <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600083798905" />
     <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599999268744">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
