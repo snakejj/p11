@@ -10,13 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
+from dotenv import load_dotenv
+
 from pathlib import Path
 
 import django_heroku
-from dotenv import load_dotenv
 
 load_dotenv()
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 
@@ -25,12 +25,12 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv("SECRET_KEY", "")
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False if os.getenv('ENV', 'development') == 'production' else True
 
-ALLOWED_HOSTS = ['.herokuapps.com', 'localhost', '127.0.0.1', '.gmail.com']
+ALLOWED_HOSTS = ['.herokuapps.com', 'localhost', '127.0.0.1', '.google.com']
 
 
 # Application definition
@@ -134,14 +134,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 LOGOUT_REDIRECT_URL = "core:home"
 
 # E-mail
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_USE_TLS = os.getenv("EMAIL_USE_TLS", "")
-EMAIL_HOST = os.getenv("EMAIL_HOST", "")
-EMAIL_HOST_USER = os.getenv("EMAIL_USER", "")
-EMAIL_HOST_PASSWORD = os.getenv("EMAIL_PASSWORD", "")
-EMAIL_PORT = os.getenv("EMAIL_PORT", "")
-DEFAULT_FROM_EMAIL= os.getenv("DEFAULT_FROM_EMAIL", "")
-
+EMAIL_BACKEND = os.getenv('EMAIL_BACKEND')
+EMAIL_USE_TLS = os.getenv("EMAIL_USE_TLS")
+EMAIL_HOST = os.getenv("EMAIL_HOST")
+EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
+EMAIL_PORT = os.getenv("EMAIL_PORT")
+DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL")
 
 if os.getenv('ENV', 'development') == 'production':
     django_heroku.settings(locals())
