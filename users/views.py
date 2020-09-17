@@ -155,3 +155,4 @@ def account_activation(request, uidb64, token):
         )
         return redirect('core:home')
     return render(request, 'registration/activate_failed.html', status=401)
+

@@ -36,8 +36,6 @@ ALLOWED_HOSTS = ['.herokuapps.com', 'localhost', '127.0.0.1', '.google.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
@@ -49,6 +47,8 @@ INSTALLED_APPS = [
     'search.apps.SearchConfig',
     'users.apps.UsersConfig',
     'favorites.apps.FavoritesConfig',
+    'django.contrib.admin',
+    'django.contrib.auth',
 ]
 
 MIDDLEWARE = [
@@ -140,7 +140,6 @@ EMAIL_HOST = os.getenv("EMAIL_HOST")
 EMAIL_HOST_USER = os.getenv("EMAIL_HOST_USER")
 EMAIL_HOST_PASSWORD = os.getenv("EMAIL_HOST_PASSWORD")
 EMAIL_PORT = os.getenv("EMAIL_PORT")
-DEFAULT_FROM_EMAIL = os.getenv("DEFAULT_FROM_EMAIL")
 
 if os.getenv('ENV', 'development') == 'production':
     django_heroku.settings(locals())

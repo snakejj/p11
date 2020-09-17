@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 
 from . import views
 
@@ -9,6 +9,6 @@ urlpatterns = [
     path('accounts/profile/', views.profile, name='profile'),
     path('logout/', views.logout, name='logout'),
     path('signup/', views.signup, name='signup'),
-    path('activate/<uidb64>/<token>', views.account_activation, name='activate')
-
+    path('activate/<uidb64>/<token>', views.account_activation, name='activate'),
 ]
+
