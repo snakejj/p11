@@ -1,0 +1,6 @@
+<script>
+$("{{ autocomplete_class }}").autocomplete({
+    source: "{% url 'completions:complete' %}",
+    minLength: {{ autocomplete_min_length }}
+});
+</script>
