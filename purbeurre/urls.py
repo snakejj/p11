@@ -24,5 +24,6 @@ urlpatterns = [
     path('', include('products.urls')),
     path('', include('favorites.urls')),
     path('', include('django.contrib.auth.urls')),
+    path('completions/', include('completions.urls', namespace="completions"))
 ]
 
