@@ -12,7 +12,7 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <hr class="divider light my-4">
-          <form class="form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="get">
+          <form class="autocomplete form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="get">
             {% for field in search_form %}
             {{ field }}
             {% endfor %}

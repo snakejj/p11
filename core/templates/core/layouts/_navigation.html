@@ -12,7 +12,7 @@
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           {% if request.get_full_path != home_url %}
           <li class="nav-item my-auto">
-            <form class="" action="{% url 'search:search_results' %}" method="get">
+            <form class="autocomplete" action="{% url 'search:search_results' %}" method="get">
               <input type="text" name="product_searched" placeholder="Quel produit substituer ?" id="id_product_searched" class="navbar-form">
             </form>
           </li>

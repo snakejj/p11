@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     'favorites.apps.FavoritesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
+    'completions.apps.CompletionsConfig'
 ]
 
 MIDDLEWARE = [
@@ -143,3 +144,7 @@ EMAIL_PORT = os.getenv("EMAIL_PORT")
 
 if os.getenv('ENV', 'development') == 'production':
     django_heroku.settings(locals())
+
+# Configuration of the autocompletion
+COMPLETIONS_MODEL = 'products.Product'
+COMPLETIONS_FIELD = 'product_name'
