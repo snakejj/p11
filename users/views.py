@@ -122,17 +122,7 @@ def login(request):
                 else:
                     messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
         except:
-            if form.is_valid():
-                username = form.cleaned_data.get('username')
-                password = form.cleaned_data.get('password')
-                user = authenticate(username=username, password=password)
-                if user is not None:
-                    log_in(request, user)
-                    messages.info(request, f"Bienvenue {username} !", fail_silently=True)
-                    return redirect('/')
-
-            else:
-                messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
+            messages.error(request, "Nom d'utilisateur ou mot de passe incorrect", fail_silently=True)
     form = AuthenticationForm()
     return render(request, 'registration/login.html', {"form": form, 'title': "Login"})
 
@@ -142,7 +132,8 @@ def account_activation(request, uidb64, token):
         uid = force_text(urlsafe_base64_decode(uidb64))
         user = User.objects.get(pk=uid)
 
-    except Exception as identifier:
+    # TODO : check doesnotexist
+    except User.DoesNotExist:
         user = None
 
     if user is not None and generate_token.check_token(user, token):

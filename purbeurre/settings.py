@@ -146,5 +146,8 @@ if os.getenv('ENV', 'development') == 'production':
     django_heroku.settings(locals())
 
 # Configuration of the autocompletion
+# # Adding the missing variables, with the "-" for descending sorting order of nutriscore
 COMPLETIONS_MODEL = 'products.Product'
 COMPLETIONS_FIELD = 'product_name'
+COMPLETIONS_ORDER = ['-nutrition_grade_fr']
+COMPLETIONS_METHOD = 'icontains'

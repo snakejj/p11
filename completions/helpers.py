@@ -1,10 +1,12 @@
 from django.apps import apps as django_apps
 from django.conf import settings
+from django.core.exceptions import ImproperlyConfigured
 
 
 def get_completions(term):
     """Returns a list of dictionaries containing the name suggestions for autocompletion."""
     model = get_model("COMPLETIONS_MODEL")
+
     field = getattr(settings, "COMPLETIONS_FIELD")
     if not isinstance(field, str):
         raise ImproperlyConfigured(
@@ -23,9 +25,15 @@ def get_completions(term):
     kwargs = {
         f"{field}__{method}": term
     }
-    return list(model.objects.filter(**kwargs).order_by(*order).values_list(field, flat=True))
 
-def get_model(self, constant_name):
+    # # Eliminating duplicates and displaying only the first 15 results
+    return_list = list(model.objects.filter(**kwargs).order_by(*order).values_list(field, flat=True))
+    return_list = list(dict.fromkeys(return_list))[:15]
+
+    return return_list
+
+
+def get_model(constant_name):
     """Returns the model specified with constant_name in the settings."""
     model_name = getattr(settings, constant_name)
     try:

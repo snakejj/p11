@@ -27,17 +27,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8dc018c3-0d3f-45e3-aa29-400330ef6316" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/password_reset_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/password_reset_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/registration/password_reset_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/completions_helpers_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/completions_urls_py.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/htmlcov/completions_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completions/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/completions/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completions/templates/completions/autocomplete.html" beforeDir="false" afterPath="$PROJECT_DIR$/completions/templates/completions/autocomplete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/layouts/_navigation.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/layouts/_navigation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/pages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/pages/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functional_tests/functional_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/functional_tests/functional_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/core_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/core_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/favorites_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/openfoodfacts_management_commands_initdb_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_models_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_models_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/products_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/products_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/purbeurre_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/search_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/search_views_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_forms_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_forms_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_urls_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_urls_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlcov/users_views_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/htmlcov/users_views_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/purbeurre/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/purbeurre/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/purbeurre/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/purbeurre/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/registration/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600272717483</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Setting of the password reset feature">
+      <created>1600336283532</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1600336283532</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,18 +260,22 @@
     <MESSAGE value="Adding the is_active variable to the signup and login view" />
     <MESSAGE value="Setting of Account_activation view and template" />
     <MESSAGE value="Setting of the account activation feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting of the account activation feature" />
+    <MESSAGE value="Setting of the password reset feature" />
+    <MESSAGE value="Fixing of the autocompletion's app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing of the autocompletion's app" />
   </component>
   <component name="WindowStateProjectService">
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600083798905">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="426" y="172" width="504" height="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600083798905" />
-    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog" timestamp="1599999268744">
-      <screen x="0" y="0" width="1366" height="736" />
+    <state x="33" y="136" width="1224" height="600" key="DiffContextDialog" timestamp="1600864203566">
+      <screen x="0" y="0" width="3286" height="736" />
     </state>
     <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599999268744" />
     <state x="1466" y="99" width="1720" height="880" key="DiffContextDialog/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599552816901" />
+    <state x="71" y="67" width="1224" height="600" key="DiffContextDialog/0.0.1366.736@0.0.1366.736" timestamp="1600762374803" />
+    <state x="33" y="136" width="1224" height="600" key="DiffContextDialog/0.0.3286.736@0.0.3286.736" timestamp="1600864203566" />
     <state x="478" y="73" width="400" height="582" key="RollbackChangesDialog" timestamp="1599999270819">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -252,15 +285,15 @@
     </state>
     <state x="330" y="6" key="SettingsEditor/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1599757905987" />
     <state x="1830" y="174" key="SettingsEditor/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551204810" />
-    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser" timestamp="1600183493828">
+    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser" timestamp="1601376955233">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600183493828" />
+    <state x="576" y="310" width="292" height="155" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1601376955233" />
     <state x="2175" y="455" width="292" height="161" key="VCS.ChangelistChooser/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551761939" />
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1600272727636">
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2" timestamp="1600336285933">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600272727636" />
+    <state x="278" y="103" width="800" height="522" key="Vcs.Push.Dialog.v2/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600336285933" />
     <state x="435" y="104" width="486" height="519" key="VcsDiffUtil.ChangesDialog" timestamp="1599579968145">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
@@ -269,10 +302,15 @@
       <screen x="0" y="0" width="1366" height="736" />
     </state>
     <state x="293" y="0" width="770" height="730" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600251581251" />
-    <state x="182" y="119" width="716" height="511" key="find.popup" timestamp="1600334818713">
+    <state x="182" y="119" width="716" height="511" key="find.popup" timestamp="1601364226722">
       <screen x="0" y="0" width="1366" height="736" />
     </state>
-    <state x="182" y="119" width="716" height="511" key="find.popup/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1600334818713" />
+    <state x="182" y="119" width="716" height="511" key="find.popup/0.0.1366.736/1366.0.1920.1080@0.0.1366.736" timestamp="1601364226722" />
     <state x="2032" y="162" width="1102" height="753" key="find.popup/0.0.1366.736/1366.0.1920.1080@1366.0.1920.1080" timestamp="1599551595156" />
+    <state x="125" y="82" width="1018" height="511" key="find.popup/0.0.3286.736@0.0.3286.736" timestamp="1600864184624" />
+    <state x="429" y="199" width="400" height="271" key="scopes" timestamp="1600854020925">
+      <screen x="0" y="0" width="3286" height="736" />
+    </state>
+    <state x="429" y="199" width="400" height="271" key="scopes/0.0.3286.736@0.0.3286.736" timestamp="1600854020925" />
   </component>
 </project>

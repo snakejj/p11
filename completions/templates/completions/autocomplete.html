@@ -1,6 +1,9 @@
 <script>
-$("{{ autocomplete_class }}").autocomplete({
+$(".autocomplete").autocomplete({
     source: "{% url 'completions:complete' %}",
-    minLength: {{ autocomplete_min_length }}
+    minLength: 2,
+    select: function(event, ui) {
+        $("#id_product_searched").val(ui.item.label);
+        $("#search_form").submit(); }
 });
 </script>

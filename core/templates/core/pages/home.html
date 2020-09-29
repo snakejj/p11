@@ -12,10 +12,9 @@
         </div>
         <div class="col-lg-8 align-self-baseline">
           <hr class="divider light my-4">
-          <form class="autocomplete form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="get">
-            {% for field in search_form %}
-            {{ field }}
-            {% endfor %}
+          <form id="search_form" class="form-inline d-flex justify-content-center" action="{% url 'search:search_results' %}" method="get">
+            <input type="text" name="product_searched" placeholder="Quel produit substituer ?" class="autocomplete" id="id_product_searched">
+
                     <button type="submit" class="btn btn-primary">Chercher</button>
                 </form>
 
