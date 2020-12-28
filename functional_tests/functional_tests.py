@@ -5,6 +5,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
+from django.core import mail
+
 
 class FunctionalTests(StaticLiveServerTestCase):
 
@@ -74,6 +76,9 @@ class FunctionalTests(StaticLiveServerTestCase):
         WebDriverWait(self.browser, 10)
 
         assert "Login" in self.browser.title
+        assert "Merci de cliquer sur le lien envoyé dans votre boite mail !" in \
+               self.browser.page_source
 
-
-
+    def test_reset_password(self):
+        pass
+        # self.assertEqual(len(mail.outbox), 1)

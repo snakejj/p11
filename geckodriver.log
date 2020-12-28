@@ -1188,3 +1188,159 @@ completePromise@resource://gre/modules/Promise-backend.js:741:12
 1600422334005	Marionette	INFO	Stopped listening on port 46565
 JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
 1600422340749	Marionette	INFO	Stopped listening on port 45147
+1605614263046	geckodriver	INFO	Listening on 127.0.0.1:40067
+1605614264053	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejpSJea"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+1605614267721	Marionette	INFO	Listening on port 39517
+1605614267769	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605614267879	geckodriver	INFO	Listening on 127.0.0.1:38025
+1605614267884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBR27VX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+1605614270761	Marionette	INFO	Listening on port 41129
+1605614270793	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605614291306	Marionette	INFO	Stopped listening on port 41129
+1605614294676	Marionette	INFO	Stopped listening on port 39517
+1605617732948	geckodriver	INFO	Listening on 127.0.0.1:45141
+1605617733952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9EQCxW"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605617736749	Marionette	INFO	Listening on port 43611
+1605617736800	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605617736914	geckodriver	INFO	Listening on 127.0.0.1:48291
+1605617736919	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley0gAKG"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605617739743	Marionette	INFO	Listening on port 42151
+1605617739864	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605617765114	Marionette	INFO	Stopped listening on port 42151
+1605617768705	Marionette	INFO	Stopped listening on port 43611
+1605617857263	geckodriver	INFO	Listening on 127.0.0.1:47143
+1605617857271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileICA17r"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+1605617860087	Marionette	INFO	Listening on port 43327
+1605617860210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605617860308	geckodriver	INFO	Listening on 127.0.0.1:36701
+1605617860315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5B9Krn"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605617863281	Marionette	INFO	Listening on port 41181
+1605617863352	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1605618257993	geckodriver	INFO	Listening on 127.0.0.1:50091
+1605618258000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYmszKy"
+1605618757579	Marionette	INFO	Stopped listening on port 43327
+1605618763358	Marionette	INFO	Stopped listening on port 41181
+1605626021921	geckodriver	INFO	Listening on 127.0.0.1:36159
+1605626021930	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekEFo2r"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605626025090	Marionette	INFO	Listening on port 42307
+1605626025172	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605626025263	geckodriver	INFO	Listening on 127.0.0.1:60041
+1605626025270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEWy89R"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605626028085	Marionette	INFO	Listening on port 37633
+1605626028203	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:34155/, line 205: TypeError: $(...).autocomplete is not a function
+JavaScript error: http://localhost:34155/login/, line 161: TypeError: $(...).autocomplete is not a function
+JavaScript error: http://localhost:34155/signup/, line 207: TypeError: $(...).autocomplete is not a function
+JavaScript error: http://localhost:34155/login/, line 177: TypeError: $(...).autocomplete is not a function
+JavaScript error: http://localhost:34155/login/, line 177: TypeError: $(...).autocomplete is not a function
+1605626532670	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1605626536021	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1605883792126	geckodriver	INFO	Listening on 127.0.0.1:58273
+1605883793131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS6e1gL"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605883796414	Marionette	INFO	Listening on port 44241
+1605883796481	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605883796723	geckodriver	INFO	Listening on 127.0.0.1:59319
+1605883796728	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGsvK8E"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605883799649	Marionette	INFO	Listening on port 41413
+1605883799763	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.info: MINT: main/search-config update being skipped
+console.info: MINT: main/search-config update being skipped
+1605884242259	geckodriver	INFO	Listening on 127.0.0.1:51971
+1605884242266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4IBmsg"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605884245343	Marionette	INFO	Listening on port 35279
+1605884245417	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605884245620	geckodriver	INFO	Listening on 127.0.0.1:60859
+1605884245624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesaBE7s"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 161: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1605884248460	Marionette	INFO	Listening on port 33597
+1605884248561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1605884276206	Marionette	INFO	Stopped listening on port 41413
+1605884281214	Marionette	INFO	Stopped listening on port 35279
+1605884284726	Marionette	INFO	Stopped listening on port 44241
+1605884286832	Marionette	INFO	Stopped listening on port 33597
+1609140370172	geckodriver	INFO	Listening on 127.0.0.1:53517
+1609140371177	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilef4ssd4"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+1609140375134	Marionette	INFO	Listening on port 35217
+1609140375226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609140375364	geckodriver	INFO	Listening on 127.0.0.1:60011
+1609140375368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePK7gZv"
+console.info: MINT: Trying to use the system region (based on LANG).
+console.info: MINT: System region is GB
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+console.info: MINT: Loading search-config defaults.
+console.error: "Could not load engine startpage-gb@search.mozilla.org: Error: File resource://search-extensions/startpage-gb/ does not contain a valid manifest"
+JavaScript error: resource://gre/modules/TelemetryUtils.jsm, line 159: TypeError: date is undefined
+1609140378663	Marionette	INFO	Listening on port 36917
+1609140378740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609140381222	Marionette	INFO	Stopped listening on port 35217
