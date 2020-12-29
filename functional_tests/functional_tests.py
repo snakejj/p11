@@ -1,3 +1,5 @@
+import re
+
 from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
@@ -79,6 +81,41 @@ class FunctionalTests(StaticLiveServerTestCase):
         assert "Merci de cliquer sur le lien envoyé dans votre boite mail !" in \
                self.browser.page_source
 
-    def test_reset_password(self):
-        pass
-        # self.assertEqual(len(mail.outbox), 1)
+        assert len(mail.outbox) is 1
+        mailbody = mail.outbox[0].body
+        print(mailbody)
+        assert "Merci de cliquer sur le lien de verification ci dessous afin de terminer votre inscription" in mailbody
+
+        link_regex = r"http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+        confirmation_link_raw = re.search(link_regex, mailbody)
+        confirmation_link = confirmation_link_raw[0]
+        print(confirmation_link)
+        self.browser.get(confirmation_link)
+
+        assert "Votre compte à été validé avec succès" in self.browser.page_source
+
+
+        # Go to the login page
+        try:
+            link_to_login_page = WebDriverWait(self.browser, 10).until(
+                expected_conditions.presence_of_element_located((By.ID, "login"))
+            )
+            link_to_login_page.click()
+
+        except:
+            print("The page loading was greater than 10 seconds, hence the test was stopped")
+            self.browser.quit()
+
+        # Filling the login form
+
+        self.browser.find_element_by_name('username').send_keys('test_username')
+        self.browser.find_element_by_name('password').send_keys('password654sq%')
+
+        # Submitting the form to test if the warning about unvalidated account is active, and thus redirect to login
+
+        self.browser.find_element_by_id("button_send").click()
+
+        WebDriverWait(self.browser, 10)
+
+        assert "Bienvenue test_username !" in \
+               self.browser.page_source

@@ -1,6 +1,12 @@
+from django.test import RequestFactory
 from mixer.backend.django import mixer
 from django import urls
 from django.contrib.sessions.models import Session
+
+from users.views import *
+from .. import views
+from django.contrib import messages
+
 import pytest
 
 
@@ -112,3 +118,47 @@ def test_if_logout_view_is_working(client):
     assert not Session.objects.exists(), 'Should be no more sessions left after logging out'
 
 
+@pytest.mark.django_db
+class TestTokenGenerator:
+    def test_account_activation_with_user_none(self, monkeypatch):
+
+        def mock_check_token(user, token):
+            return True
+
+        monkeypatch.setattr(
+            "users.views.generate_token.check_token",
+            mock_check_token
+        )
+
+
+        req = RequestFactory().get('/activation')
+        resp = views.account_activation(req, "MQ==", "dsqdsq54ds6q84dsq654dsq654dsq")
+
+        assert resp.status_code == 401, \
+        'Is not working without any account'
+
+    def test_account_activation(self, monkeypatch):
+
+        def mock_check_token(user, token):
+            return True
+
+        def mock_messages_success(req, message, fail_silently):
+            pass
+
+        monkeypatch.setattr(
+            "users.views.generate_token.check_token",
+            mock_check_token
+        )
+        monkeypatch.setattr(
+            "users.views.messages.success",
+            mock_messages_success
+        )
+
+        req = RequestFactory()
+        req.user = mixer.blend('auth.User', id=1, username='my_username', is_active='False')
+
+        # 'MQ==' is the number 1 encoded in base 64
+        resp = views.account_activation(req, "MQ==", "token_exemple")
+
+        assert resp.status_code == 302, \
+            'Is redirecting when with an account'
