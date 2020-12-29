@@ -1,6 +1,7 @@
 from django.contrib.auth.models import AnonymousUser
+from django.core.exceptions import ImproperlyConfigured
 from django.db import IntegrityError
-from .. import views
+from .. import views, helpers
 
 from django.test import RequestFactory, override_settings
 import pytest
@@ -78,6 +79,45 @@ def test_complete_without_term():
     assert resp.status_code == 200, \
         'Is working without any term entered'
 
-# @override_settings(COMPLETIONS_FIELD='123')
-# def test_completion_if_completions_field_improperly_configured():
-#     pass
+
+@override_settings(COMPLETIONS_FIELD=1)
+@pytest.mark.xfail(raises=ImproperlyConfigured)
+def test_complete_with_improperly_configured_completions_field():
+
+    get = {"term": ""}
+    req = RequestFactory().get('/', data=get)
+    views.complete(req)
+
+
+@override_settings(COMPLETIONS_ORDER=1)
+@pytest.mark.xfail(raises=ImproperlyConfigured)
+def test_complete_with_improperly_configured_field_completions_order():
+
+    get = {"term": ""}
+    req = RequestFactory().get('/', data=get)
+    views.complete(req)
+
+
+@override_settings(COMPLETIONS_METHOD=1)
+@pytest.mark.xfail(raises=ImproperlyConfigured)
+def test_complete_with_improperly_configured_field_completions_method():
+
+    get = {"term": ""}
+    req = RequestFactory().get('/', data=get)
+    views.complete(req)
+
+
+@override_settings(COMPLETIONS_MODEL="dsqdsq.dsqdsq")
+@pytest.mark.xfail(raises=ImproperlyConfigured)
+def test_complete_with_improperly_configured_field_completions_model_lookup_error():
+
+    get = {"term": ""}
+    req = RequestFactory().get('/', data=get)
+    views.complete(req)
+
+@override_settings(COMPLETIONS_MODEL="dsqdsq-dsqdsq")
+@pytest.mark.xfail(raises=ImproperlyConfigured)
+def test_complete_with_improperly_configured_field_completions_model_value_error():
+    get = {"term": ""}
+    req = RequestFactory().get('/', data=get)
+    views.complete(req)
